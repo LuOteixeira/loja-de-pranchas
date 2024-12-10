@@ -3,12 +3,12 @@ import { Prancha } from "../models/pranchaModel";
 
 const AppDataSource = new DataSource({
   type: "postgres",
-  host: "host-do-seu-banco-de-dados",
+  host: "dpg-ct6cn8popnds73deuam0-a",
   port: 5432,
-  username: "seu-usuario",
-  password: "sua-senha",
-  database: "nome-do-banco",
-  synchronize: true, // Para desenvolvimento, cria as tabelas automaticamente
+  username: "back_postgree_sql_user",
+  password: "hg43QcRvJgJxi0tz5Peso2n8vTBhK3hf",
+  database: "back_postgree_sql",
+  synchronize: true, 
   logging: true,
   entities: [Prancha],
   migrations: [],
